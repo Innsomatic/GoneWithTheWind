@@ -1,0 +1,19 @@
+﻿Build started 10/14/2015 2:20:45 PM.
+     1>Project "C:\Users\User\Documents\GitHub\GWTW\GoneWithTheWind\GoneWithTheWind.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ammo.cpp Level.cpp object.cpp plane.cpp
+         plane.cpp
+         object.cpp
+         Level.cpp
+     1>c:\users\user\documents\github\gwtw\gonewiththewind\level.cpp(22): error C2758: 'Level::thePlane_' : a member of reference type must be initialized
+                 c:\users\user\documents\github\gwtw\gonewiththewind\level.h(31) : see declaration of 'Level::thePlane_'
+     1>c:\users\user\documents\github\gwtw\gonewiththewind\level.cpp(31): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'Plane *' (or there is no acceptable conversion)
+                 c:\users\user\documents\github\gwtw\gonewiththewind\object.h(154): could be 'Object &Object::operator =(const Object &)'
+                 while trying to match the argument list '(Object, Plane *)'
+         ammo.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\User\Documents\GitHub\GWTW\GoneWithTheWind\GoneWithTheWind.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.95
